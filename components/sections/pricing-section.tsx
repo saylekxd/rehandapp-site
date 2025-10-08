@@ -102,7 +102,7 @@ export default function PricingSection() {
     <section id="pricing" className="py-20 bg-background relative overflow-hidden">
       <div className="absolute top-0 inset-x-0 h-40 bg-gradient-to-b from-primary/5 to-transparent dark:from-primary/10 -z-10" />
       <div className="absolute bottom-0 inset-x-0 h-40 bg-gradient-to-t from-primary/5 to-transparent dark:from-primary/10 -z-10" />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-10 lg:px-12 lg:pl-24 xl:pl-32 lg:pr-8">
         <div className="text-center mb-16">
         <div className="flex justify-center">
             <div className="border py-1 px-4 rounded-lg">{t('pricing.badge')}</div>
@@ -139,17 +139,17 @@ export default function PricingSection() {
             >
               <Card className={`w-full border-2 ${plan.popular ? 'border-primary' : 'border-border'} relative flex flex-col hover:shadow-lg transition-shadow duration-300 bg-card ${plan.comingSoon ? 'opacity-75' : ''}`}>
                 {plan.name === t('pricing.plans.enterprise.name') && (
-                  <div className="absolute top-0 right-0 -mt-2 -mr-2 bg-emerald-500 text-white text-xs px-3 py-1 rounded-full font-medium">
+                  <div className="absolute top-2 right-2 bg-emerald-500 text-white text-xs px-3 py-1 rounded-full font-medium">
                     {t('pricing.plans.enterprise.badge')}
                   </div>
                 )}
                 {plan.popular && (
-                  <div className="absolute top-0 right-0 -mt-2 -mr-2 bg-primary text-primary-foreground text-xs px-3 py-1 rounded-full font-medium">
+                  <div className="absolute top-2 right-2 bg-primary text-primary-foreground text-xs px-3 py-1 rounded-full font-medium">
                     {t('pricing.popular')}
                   </div>
                 )}
                 {plan.comingSoon && (
-                  <div className="absolute top-0 right-0 -mt-2 -mr-2 bg-violet-500 text-white text-xs px-3 py-1 rounded-full font-medium">
+                  <div className="absolute top-2 right-2 bg-violet-500 text-white text-xs px-3 py-1 rounded-full font-medium">
                     {t('pricing.comingSoon')}
                   </div>
                 )}

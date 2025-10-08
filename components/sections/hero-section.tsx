@@ -96,7 +96,7 @@ export default function HeroSection() {
             transition={{ duration: 0.5 }}
             className="text-left space-y-6 lg:space-y-8"
           >
-            <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight text-foreground leading-tight">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight text-foreground leading-tight text-center lg:text-left">
               {t('hero.titlePrefix')} <span className="text-primary">{t('hero.brand')}</span>
             </h1>
             
