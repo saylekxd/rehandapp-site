@@ -1,0 +1,976 @@
+{
+  "nav": {
+    "features": "Co zyskasz",
+    "howItWorks": "Zobacz w akcji",
+    "pricing": "Cennik",
+    "testimonials": "Opinie",
+    "partners": "Partnerzy",
+    "exercises": "Ćwiczenia"
+  },
+  "exercises": {
+    "badge": "Przykładowe ćwiczenia",
+    "title": "Poznaj ćwiczenia w aplikacji",
+    "subtitle": "Wybrane pozycje dostępne w Rehand. Przewijaj poziomo, aby zobaczyć więcej.",
+    "error": "Błąd",
+    "view": "Podgląd",
+    "start": "Rozpocznij ćwiczenie",
+    "minutes": "min",
+    "noImage": "Brak obrazu",
+    "noInstructions": "Brak instrukcji do wyświetlenia",
+    "difficulty": {
+      "easy": "Łatwe",
+      "medium": "Średnie",
+      "hard": "Trudne"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Zaloguj się",
+      "description": "Wprowadź swój email i hasło, aby uzyskać dostęp do panelu",
+      "email": "Email",
+      "password": "Hasło",
+      "forgotPassword": "Zapomniałeś hasła?",
+      "signInButton": "Zaloguj się",
+      "signingIn": "Logowanie...",
+      "noAccount": "Nie masz konta?",
+      "signUp": "Zarejestruj się",
+      "emailPlaceholder": "nazwa@przykład.com",
+      "welcomeBack": "Witaj ponownie",
+      "signInToAccount": "Zaloguj się na swoje konto, aby uzyskać dostęp do panelu"
+    },
+    "register": {
+      "title": "Utwórz konto",
+      "description": "Wprowadź swoje dane, aby utworzyć nowe konto",
+      "fullName": "Pełne imię i nazwisko",
+      "email": "Email",
+      "password": "Hasło",
+      "confirmPassword": "Potwierdź hasło",
+      "businessOption": "Opcja firmowa",
+      "createNew": "Utwórz nową firmę",
+      "joinExisting": "Dołącz do istniejącej firmy",
+      "businessId": "ID firmy",
+      "businessIdPlaceholder": "Wprowadź ID firmy lub kod zaproszenia",
+      "createButton": "Utwórz konto",
+      "creating": "Tworzenie konta...",
+      "hasAccount": "Masz już konto?",
+      "signIn": "Zaloguj się",
+      "fullNamePlaceholder": "Jan Kowalski",
+      "emailPlaceholder": "nazwa@przykład.com",
+      "createAnAccount": "Utwórz konto",
+      "signUpToGetStarted": "Zarejestruj się, aby rozpocząć pracę z AI-Menago"
+    },
+    "navigation": {
+      "dashboard": "Panel",
+      "logIn": "Zaloguj się",
+      "signUp": "Zarejestruj się"
+    }
+  },
+  "dashboard": {
+    "title": "Panel",
+    "welcomeBack": "Witaj ponownie, {{name}}",
+    "business": "Firma: {{name}}",
+    "navigation": {
+      "dashboard": "Panel",
+      "tasks": "Zadania",
+      "team": "Zespół",
+      "time": "Czas",
+      "statistics": "AI-Agent",
+      "documents": "Dokumenty",
+      "timeManagement": "Zarządzanie czasem",
+      "settings": "Ustawienia"
+    },
+    "stats": {
+      "totalTasks": "Wszystkie zadania",
+      "totalTasksDesc": "Aktywne zadania w Twojej firmie",
+      "completedTasks": "Ukończone zadania",
+      "completedTasksDesc": "Zadania oznaczone jako ukończone",
+      "pendingTasks": "Oczekujące zadania",
+      "pendingTasksDesc": "Zadania czekające na ukończenie",
+      "overdueTasks": "Przeterminowane zadania",
+      "overdueTasksDesc": "Zadania po terminie wykonania",
+      "teamMembers": "Członkowie zespołu",
+      "teamMembersDesc": "Całkowita liczba użytkowników w firmie"
+    },
+    "marketingFeatures": {
+      "title": "Najnowsze funkcje",
+      "learnMore": "Dowiedz się więcej"
+    },
+    "user": {
+      "signOut": "Wyloguj się",
+      "signingOut": "Wylogowywanie..."
+    },
+    "activityFeed": {
+      "title": "Ostatnia aktywność",
+      "description": "Najnowsze działania w Twojej firmie",
+      "taskCompleted": "Zadanie ukończone: {{title}}",
+      "taskAssigned": "Zadanie przypisane: {{title}}",
+      "userJoined": "{{name}} dołączył do zespołu",
+      "documentUploaded": "Dokument przesłany: {{title}}",
+      "noActivity": "Brak ostatniej aktywności do wyświetlenia",
+      "loading": "Ładowanie aktywności..."
+    },
+    "activity": {
+      "title": "Ostatnia aktywność",
+      "description": "Najnowsze działania w Twojej firmie",
+      "refresh": "Odśwież",
+      "error": "Błąd podczas ładowania aktywności. Spróbuj odświeżyć.",
+      "noActivities": "Nie znaleziono ostatnich aktywności.",
+      "showLess": "Pokaż mniej",
+      "showAll": "Pokaż wszystkie ({{count}})",
+      "recently": "niedawno"
+    },
+    "settings": {
+      "title": "Ustawienia",
+      "description": "Zarządzaj ustawieniami konta i preferencjami",
+      "profile": "Profil",
+      "password": "Hasło",
+      "notifications": "Powiadomienia",
+      "profileUpdated": "Profil został pomyślnie zaktualizowany",
+      "passwordChanged": "Hasło zostało pomyślnie zmienione",
+      "updateProfile": "Aktualizuj profil",
+      "changePassword": "Zmień hasło",
+      "saveChanges": "Zapisz zmiany",
+      "firstName": "Imię",
+      "lastName": "Nazwisko",
+      "email": "Email",
+      "currentPassword": "Bieżące hasło",
+      "newPassword": "Nowe hasło",
+      "confirmPassword": "Potwierdź hasło",
+      "cancel": "Anuluj",
+      "tabs": {
+        "profile": "Profil",
+        "password": "Hasło",
+        "notifications": "Powiadomienia"
+      }
+    },
+    "team": {
+      "title": "Członkowie zespołu",
+      "description": "Zarządzaj zespołem i uprawnieniami",
+      "inviteTeamMember": "Zaproś członka zespołu",
+      "teamList": "Lista zespołu",
+      "teamListDescription": "Zobacz i zarządzaj członkami zespołu",
+      "searchPlaceholder": "Szukaj członków zespołu...",
+      "errorLoading": "Nie udało się załadować członków zespołu",
+      "name": "Imię",
+      "email": "Email",
+      "role": "Rola",
+      "actions": "Działania",
+      "admin": "Administrator",
+      "manager": "Menedżer",
+      "worker": "Pracownik",
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "noMembers": "Nie znaleziono członków zespołu",
+      "inviteButton": "Zaproś członka zespołu",
+      "listTitle": "Lista zespołu",
+      "listDescription": "Zobacz i zarządzaj członkami zespołu",
+      "error": "Nie udało się załadować członków zespołu"
+    },
+    "tasks": {
+      "title": "Zarządzanie zadaniami",
+      "description": "Twórz, przypisuj i śledź zadania dla swojego zespołu",
+      "newTask": "Nowe zadanie",
+      "allTasks": "Wszystkie zadania",
+      "allTasksDescription": "Zobacz i zarządzaj wszystkimi zadaniami w swojej firmie",
+      "pending": "Oczekujące",
+      "pendingTasks": "Oczekujące zadania",
+      "pendingTasksDescription": "Zadania, które są nadal w trakcie realizacji",
+      "completed": "Ukończone",
+      "completedTasks": "Ukończone zadania",
+      "completedTasksDescription": "Zadania, które zostały oznaczone jako ukończone",
+      "overdue": "Przeterminowane",
+      "overdueTasks": "Przeterminowane zadania",
+      "overdueTasksDescription": "Zadania, które przekroczyły termin wykonania",
+      "noTasks": "Nie znaleziono zadań. Utwórz swoje pierwsze zadanie!",
+      "noPendingTasks": "Brak oczekujących zadań!",
+      "noCompletedTasks": "Brak ukończonych zadań!",
+      "noOverdueTasks": "Brak przeterminowanych zadań!",
+      "new": {
+        "title": "Utwórz nowe zadanie",
+        "description": "Dodaj nowe zadanie dla zespołu do ukończenia",
+        "backToTasks": "Powrót do zadań",
+        "stepDescriptions": {
+          "basicInfo": "Wprowadź podstawowe informacje o tym zadaniu",
+          "details": "Dodaj priorytet i tagi do zadania",
+          "recurring": "Ustaw powtarzający się harmonogram jeśli potrzebny",
+          "checklist": "Dodaj elementy listy kontrolnej do zadania",
+          "assignment": "Przypisz zadanie członkom zespołu",
+          "template": "Zapisz jako szablon do przyszłego użytku"
+        }
+      },
+      "tabs": {
+        "all": "Wszystkie zadania ({{count}})",
+        "pending": "Oczekujące ({{count}})",
+        "completed": "Ukończone ({{count}})",
+        "overdue": "Przeterminowane ({{count}})"
+      },
+      "allTasks": {
+        "title": "Wszystkie zadania",
+        "description": "Zobacz i zarządzaj wszystkimi zadaniami w swojej firmie",
+        "noTasks": "Nie znaleziono zadań. Utwórz swoje pierwsze zadanie!"
+      },
+      "pendingTasks": {
+        "title": "Oczekujące zadania",
+        "description": "Zadania, które są nadal w trakcie realizacji",
+        "noPending": "Brak oczekujących zadań!"
+      },
+      "completedTasks": {
+        "title": "Ukończone zadania",
+        "description": "Zadania, które zostały oznaczone jako ukończone",
+        "noCompleted": "Brak ukończonych zadań!"
+      },
+      "overdueTasks": {
+        "title": "Przeterminowane zadania",
+        "description": "Zadania, które przekroczyły termin wykonania",
+        "noOverdue": "Brak przeterminowanych zadań!"
+      },
+      "status": {
+        "completed": "Ukończone",
+        "overdue": "Przeterminowane",
+        "pending": "Oczekujące"
+      },
+      "priority": {
+        "high": "Wysoki",
+        "medium": "Średni",
+        "low": "Niski",
+        "priorityLabel": "Priorytet"
+      }
+    },
+    "timeManagement": {
+      "title": "Zarządzanie czasem",
+      "description": "Śledź i zarządzaj czasem w swojej firmie",
+      "schedule": "Harmonogram",
+      "scheduleButton": "Harmonogram",
+      "teamView": "Widok zespołu",
+      "individualView": "Widok indywidualny",
+      "period": "Okres",
+      "day": "Dzień",
+      "week": "Tydzień",
+      "month": "Miesiąc",
+      "loading": "Ładowanie...",
+      "loadingTeamMembers": "Ładowanie członków zespołu...",
+      "noMembersFound": "Nie znaleziono członków",
+      "noTeamMembersFound": "Nie znaleziono członków zespołu",
+      "selectTeamMember": "Wybierz członka zespołu",
+      "timeTrend": "Trend czasowy",
+      "timeSpentOverSelectedPeriod": "Czas spędzony w wybranym okresie",
+      "summary": "Podsumowanie",
+      "overallTimeStatistics": "Ogólne statystyki czasu",
+      "totalHours": "Łączne godziny",
+      "activeMembers": "Aktywni członkowie",
+      "teamCalculation": "Obliczenie zespołowe",
+      "individualCalculation": "Obliczenie indywidualne",
+      "teamTimeStats": {
+        "noBusiness": {
+          "title": "Nie wybrano firmy",
+          "description": "Wybierz firmę, aby zobaczyć statystyki czasu zespołu."
+        },
+        "totalWorkTime": {
+          "title": "Łączny czas pracy",
+          "helper": "Wśród {{count}} członków zespołu"
+        },
+        "activeMembers": {
+          "title": "Aktywni członkowie",
+          "helper": "W wybranym okresie"
+        },
+        "avgSessions": {
+          "title": "Śr. sesji",
+          "helper": "Na członka zespołu"
+        },
+        "topPerformer": {
+          "title": "Najlepszy wykonawca",
+          "noData": "Brak danych"
+        }
+      },
+      "timeLineChart": {
+        "noBusiness": {
+          "title": "Nie wybrano firmy",
+          "description": "Wybierz firmę, aby zobaczyć statystyki czasu."
+        },
+        "yAxis": {
+          "hours": "Godziny"
+        },
+        "tooltip": {
+          "workTime": "Czas pracy",
+          "hours": "godziny",
+          "label": "Czas: {{label}}"
+        }
+      },
+      "userTimeStats": {
+        "selectMember": "Wybierz członka zespołu, aby zobaczyć jego statystyki",
+        "totalWorkTime": {
+          "title": "Łączny czas pracy",
+          "helper": "Dla {{name}}"
+        },
+        "workSessions": {
+          "title": "Sesje pracy",
+          "helper": "W wybranym okresie"
+        },
+        "avgSessionLength": {
+          "title": "Średnia długość sesji",
+          "helper": "Na sesję pracy"
+        },
+        "longestSession": {
+          "title": "Najdłuższa sesja",
+          "helper": "Czas jednej sesji"
+        }
+      }
+    },
+    "documents": {
+      "title": "Dokumenty",
+      "description": "Zarządzaj i organizuj dokumenty firmowe",
+      "newDocument": "Nowy dokument",
+      "libraryTitle": "Biblioteka dokumentów",
+      "libraryDescription": "Wszystkie dokumenty firmowe w jednym miejscu",
+      "searchPlaceholder": "Szukaj dokumentów...",
+      "document": "Dokument",
+      "client": "Klient",
+      "type": "Typ",
+      "status": "Status",
+      "date": "Data",
+      "actions": "Działania",
+      "download": "Pobierz",
+      "delete": "Usuń",
+      "loading": "Ładowanie dokumentów...",
+      "noDocuments": "Nie znaleziono dokumentów",
+      "noDocumentsForBusiness": "Nie znaleziono dokumentów dla tej firmy",
+      "errorTitle": "Błąd ładowania dokumentów"
+    },
+    "statistics": {
+      "title": "Statystyki",
+      "description": "Zobacz i analizuj wskaźniki wydajności swojej firmy",
+      "comingSoon": "Wkrótce",
+      "comingSoonDescription": "Funkcja statystyk i analiz jest obecnie w trakcie tworzenia. Sprawdź wkrótce szczegółowe wykresy i spostrzeżenia dotyczące wydajności Twojej firmy.",
+      "tasksCompleted": "Ukończone zadania",
+      "tasksCompletedDesc": "Miesięczny wskaźnik ukończenia",
+      "teamPerformance": "Wydajność zespołu",
+      "teamPerformanceDesc": "Wskaźniki produktywności",
+      "documentActivity": "Aktywność dokumentów",
+      "documentActivityDesc": "Ostatnie interakcje z dokumentami",
+      "businessOverview": "Przegląd wydajności firmy",
+      "businessOverviewDesc": "Skonsolidowany panel wskaźników",
+      "chartComingSoon": "Wykres wkrótce",
+      "detailedChartsComingSoon": "Szczegółowe wykresy wydajności wkrótce"
+    }
+  },
+  "hero": {
+    "titlePrefix": "Fizjoterapia całego ciała z",
+    "brand": "Rehand AI",
+    "subtitle": "Trenuj w domu z inteligentnym wsparciem kamery. Rehand analizuje Twoją postawę na żywo, prowadzi przez kroki ćwiczeń i automatycznie mierzy postępy – bez zgadywania i bezpiecznie dla całego ciała.",
+    "getStarted": "Rozpocznij za darmo",
+    "bookDemo": "Zarezerwuj demo",
+    "noCreditCard": "Nie wymagana karta kredytowa",
+    "freeTrial": "7-dniowy darmowy okres próbny",
+    "loading": "Ładowanie...",
+    "previousImage": "Poprzedni obraz",
+    "nextImage": "Następny obraz",
+    "goToImage": "Przejdź do obrazu",
+    "taskCompletion": "Ukończenie zadań",
+    "percentCompleted": "75% ukończone",
+    "newTasks": "Nowe zadania",
+    "today": "Dzisiaj",
+    "downloadOn": "Pobierz z",
+    "appStore": "App Store",
+    "getItOn": "Pobierz z",
+    "googlePlay": "Google Play",
+    "downloadAppStore": "Pobierz z App Store",
+    "downloadGooglePlay": "Pobierz z Google Play"
+  },
+  "features": {
+    "badge": "Funkcje",
+    "title": "Zaawansowane funkcje dla nowoczesnej fizjoterapii",
+    "subtitle": "Kamera + AI prowadzą Cię krok po kroku, a wyniki zapisują się same.",
+    "taskManagement": {
+      "title": "Prowadzone sesje z AI",
+      "description": "Rehand daje wskazówki na żywo i płynnie przeprowadza przez kolejne kroki ćwiczeń."
+    },
+    "roleBasedAccess": {
+      "title": "Kalibracja pozycji",
+      "description": "Szybkie ustawienie odległości i kadru dla precyzyjnej i bezpiecznej korekty."
+    },
+    "photoVerification": {
+      "title": "Biblioteka ćwiczeń całego ciała",
+      "description": "Od mobilizacji kręgosłupa po stabilizację barków i bioder – z jasnymi progami zaliczeń."
+    },
+    "analytics": {
+      "title": "Cele tygodniowe",
+      "description": "Ustal cel minut i śledź realizację w czasie rzeczywistym."
+    },
+    "administration": {
+      "title": "Osiągnięcia i streak",
+      "description": "Odznaki za pierwsze treningi, serie dni i kamienie milowe."
+    },
+    "timeTracking": {
+      "title": "Statystyki i raporty",
+      "description": "Ukończone ćwiczenia, łączny czas, rundy i postępy – wszystko w profilu."
+    }
+  },
+  "features8": {
+    "badge": "Korzyści",
+    "title": "Natychmiastowe efekty dzięki personalizacji",
+    "subtitle": "Wszystko, czego potrzebujesz, by ćwiczyć poprawnie i systematycznie.",
+    "customizable": {
+      "title": "personalizacja",
+      "percentage": "100%"
+    },
+    "secure": {
+      "title": "Kontrola techniki = mniej błędów",
+      "description": "Live feedback koryguje ułożenie kończyn i tempo – dokładność zamiast domysłów."
+    },
+    "fast": {
+      "title": "Wyniki w minutach",
+      "description": "Po sesji podsumowanie kroków i czasu – widzisz realny progres."
+    },
+    "analytics": {
+      "title": "Raporty na klik",
+      "description": "Przejrzyste wykresy i podsumowania bez ręcznego zapisu."
+    },
+    "safety": {
+      "title": "Codzienna motywacja",
+      "description": "Cele i odznaki trzymają rytm treningu."
+    },
+    "employees": {
+      "adam": "Trzymam rytm",
+      "monika": "Progres codziennie",
+      "kasia": "Krok po kroku",
+      "krzys": "Cel osiągnięty"
+    }
+  },
+  "howItWorks": {
+    "badge": "Zobacz w akcji",
+    "title": "Zobacz Rehand AI w praktyce",
+    "subtitle": "Krótki film pokazujący, jak wyglądają sesje ćwiczeń z kamerą i wskazówkami AI.",
+    "roles": {
+      "admin": {
+        "label": "Administrator",
+        "description": "Pełne możliwości zarządzania firmą i raportowania",
+        "steps": {
+          "profile": {
+            "title": "Zarządzaj profilem firmy",
+            "description": "Twórz i aktualizuj dane firmy, branding i ustawienia"
+          },
+          "team": {
+            "title": "Administracja zespołem",
+            "description": "Dodawaj członków zespołu, przydzielaj role i zarządzaj uprawnieniami"
+          },
+          "insights": {
+            "title": "Analizy wydajności",
+            "description": "Dostęp do szczegółowych analiz i raportów dotyczących produktywności zespołu"
+          }
+        }
+      },
+      "manager": {
+        "label": "Menedżer",
+        "description": "Tworzenie zadań i przydzielanie pracowników",
+        "steps": {
+          "create": {
+            "title": "Twórz zadania",
+            "description": "Definiuj nowe zadania ze szczegółowymi opisami, terminami i wymaganiami"
+          },
+          "assign": {
+            "title": "Przydzielaj pracowników",
+            "description": "Przydzielaj zadania konkretnym członkom zespołu z jasnymi instrukcjami"
+          },
+          "review": {
+            "title": "Przeglądaj i zatwierdzaj",
+            "description": "Weryfikuj wykonane zadania i raporty czasu pracy oraz przekazuj informacje zwrotne członkom zespołu"
+          }
+        }
+      },
+      "worker": {
+        "label": "Pracownik",
+        "description": "Przeglądanie i wykonywanie zadań",
+        "steps": {
+          "view": {
+            "title": "Przeglądaj przydzielone zadania",
+            "description": "Zobacz wszystkie przydzielone zadania ze szczegółami i terminami"
+          },
+          "track": {
+            "title": "Śledź godziny pracy",
+            "description": "Rejestruj wejścia i wyjścia dla dokładnego śledzenia czasu pracy"
+          },
+          "submit": {
+            "title": "Zgłaszaj ukończenie",
+            "description": "Oznaczaj zadania jako ukończone z dowodami w postaci zdjęć i komentarzy"
+          }
+        }
+      }
+    }
+  },
+  "partners": {
+    "title": "Z Rehand AI ćwiczą użytkownicy dbający o zdrowy kręgosłup, barki, kolana i biodra."
+  },
+  "pricing": {
+    "badge": "Ile to kosztuje",
+    "title": "Wybierz idealny plan dla siebie",
+    "subtitle": "Wszystkie plany obejmują 14‑dniowy darmowy okres próbny. Karta kredytowa nie jest wymagana.",
+    "monthly": "Miesięcznie",
+    "annually": "Rocznie",
+    "saveText": "(Oszczędź 20%)",
+    "comingSoon": "Wkrótce",
+    "billing": {
+      "monthly": "Miesięcznie",
+      "annually": "Rocznie",
+      "save20": "Oszczędź 20%"
+    },
+    "plans": {
+      "core": {
+        "name": "Plan Tygodniowy",
+        "description": "Szybki start i test pełnych sesji AI",
+        "cta": "Rozpocznij próbę",
+        "priceMonthly": 89,
+        "priceAnnually": 854,
+        "features": {
+          "teamMembers": "Sesje AI bez limitu w okresie próbnym",
+          "taskManagement": "2 ćwiczenia próbne z pełnym feedbackiem",
+          "timeTracking": "Podstawowe statystyki i cele tygodniowe",
+          "photoVerification": "",
+          "roleAccess": "",
+          "basicAnalytics": "",
+          "support": "Wsparcie e‑mail i czat"
+        }
+      },
+      "growthAI": {
+        "name": "Plan Miesięczny",
+        "description": "Pełna biblioteka i nielimitowane sesje AI",
+        "cta": "Wybierz plan",
+        "priceMonthly": 219,
+        "priceAnnually": 2102,
+        "popular": true,
+        "features": {
+          "teamMembers": "Pełna biblioteka ćwiczeń całego ciała",
+          "taskManagement": "Nieograniczone sesje AI i rundy",
+          "photoVerification": "Osiągnięcia, streak, rozbudowane statystyki",
+          "roleAccess": "",
+          "aiReports": "",
+          "payroll": "",
+          "scheduling": "",
+          "onboardingBot": "",
+          "internalChat": "",
+          "prioritySupport": "Aktualizacje i priorytetowe poprawki"
+        }
+      },
+      "enterprise": {
+        "name": "Plan Roczny",
+        "badge": "Oszczędność",
+        "description": "Najlepsza cena i wsparcie premium",
+        "cta": "Wybierz plan",
+        "contactOnly": true,
+        "features": {
+          "unlimitedMembers": "Wszystko z planu Miesięczny",
+          "completeSuite": "Najniższa cena w przeliczeniu na miesiąc",
+          "advancedRoleAccess": "Priorytetowe wsparcie",
+          "advancedAnalytics": "Bonusowe materiały i plany treningowe",
+          "customIntegrations": "",
+          "internalChatPro": "",
+          "dedicatedCSM": "",
+          "sla": ""
+        }
+      }
+    },
+    "week": "tydzień",
+    "month": "miesiąc",
+    "year": "rok",
+    "popular": "Popularne",
+    "customPlan": "Potrzebujesz niestandardowego planu?",
+    "contactSales": "Skontaktuj się z nami"
+  },
+  "testimonials": {
+    "badge": "Opinie beta i ekspertów",
+    "title": "Co mówią nasi użytkownicy",
+    "subtitle": "Głosy fizjoterapeutów i uczestników programu beta.",
+    "testimonial1": {
+      "quote": "Rehand pomaga moim pacjentom utrzymać prawidłową technikę między wizytami. Dzięki kalibracji pozycji i wskazówkom na żywo pacjent otrzymuje korektę dokładnie w momencie wykonywania ruchu, co znacząco przyspiesza efekt terapeutyczny.",
+      "name": "dr Marta Kowalczyk",
+      "role": "Fizjoterapeutka, ortopedia"
+    },
+    "testimonial2": {
+      "quote": "Kalibracja kamery i wskazówki na żywo skracają czas nauki ruchu. Widzę mniej błędów kompensacyjnych, a pacjenci szybciej osiągają prawidłowy wzorzec, co ułatwia przejście do bardziej wymagających ćwiczeń.",
+      "name": "mgr Piotr Król",
+      "role": "Fizjoterapeuta sportowy"
+    },
+    "testimonial3": {
+      "quote": "Po tygodniu widzę mniej bólu krzyża i lepszą mobilność. Podoba mi się, że aplikacja pokazuje postęp po każdej sesji i przypomina o celach tygodniowych – to naprawdę motywuje do regularności.",
+      "name": "Ania, 29 lat",
+      "role": "Uczestniczka beta"
+    },
+    "testimonial4": {
+      "quote": "Raporty po sesji ułatwiają mi planowanie terapii. Mam szybki wgląd w wykonane ruchy, czas trwania i trudniejsze elementy, więc mogę precyzyjnie dobrać kolejne zadania domowe.",
+      "name": "dr Paweł Lis",
+      "role": "Fizjoterapeuta, terapia manualna"
+    },
+    "testimonial5": {
+      "quote": "Zadane cele tygodniowe pilnują mojej regularności. Nawet gdy mam mało czasu, krótkie rundy i jasne progi zaliczeń pozwalają mi utrzymać rytm i widzieć realny progres.",
+      "name": "Michał, 35 lat",
+      "role": "Uczestnik beta"
+    },
+    "testimonial6": {
+      "quote": "Biblioteka ćwiczeń całego ciała jest czytelna i dobrze prowadzona.",
+      "name": "Aleksandra Nowak",
+      "role": "Fizjoterapeutka"
+    },
+    "testimonial7": {
+      "quote": "Ćwiczę wieczorem w domu i wreszcie widzę postęp.",
+      "name": "Kasia, 42 lata",
+      "role": "Uczestniczka beta"
+    },
+    "testimonial8": {
+      "quote": "Feedback w czasie rzeczywistym ogranicza błędy techniczne.",
+      "name": "mgr Ewa Bielecka",
+      "role": "Fizjoterapeutka neurologiczna"
+    },
+    "testimonial9": {
+      "quote": "Po 2 tygodniach kolano boli mniej, a zakres ruchu jest większy.",
+      "name": "Bartek, 31 lat",
+      "role": "Uczestnik beta"
+    },
+    "testimonial10": {
+      "quote": "Aplikacja jasno pokazuje zakres ruchu i tempo. To pomaga mi edukować pacjentów, a im samodzielnie korygować wzorce w domu.",
+      "name": "dr Joanna Szymańska",
+      "role": "Fizjoterapeutka, rehabilitacja narządu ruchu"
+    },
+    "testimonial11": {
+      "quote": "Po kontuzji barku wróciłem do pełnej sprawności szybciej niż zakładałem. Krótkie sesje co drugi dzień i czytelny feedback zrobiły różnicę.",
+      "name": "Łukasz, 38 lat",
+      "role": "Uczestnik beta"
+    },
+    "testimonial12": {
+      "quote": "W pracy z pacjentami neurologicznymi ważna jest powtarzalność i bezpieczeństwo. Rehand umożliwia to w warunkach domowych bez kompromisów.",
+      "name": "mgr Natalia Kurek",
+      "role": "Fizjoterapeutka neurologiczna"
+    }
+  },
+  "cta": {
+    "badge": "Efekty w praktyce",
+    "title": "Gotowy na mądrzejszy trening z AI?",
+    "subtitle": "Rozpocznij 14‑dniowy okres próbny już dziś. Bez karty kredytowej.",
+    "getStarted": "Rozpocznij za darmo",
+    "bookDemo": "Zarezerwuj demo",
+    "benefits": {
+      "noCreditCard": "Bez karty kredytowej",
+      "easySetup": "Łatwa konfiguracja",
+      "cancelAnytime": "Anuluj w dowolnym momencie"
+    }
+  },
+  "footer": {
+    "description": "Rehand AI to inteligentny asystent fizjoterapii do treningu w domu. Analizuje Twoją postawę na żywo, prowadzi przez kroki ćwiczeń i automatycznie mierzy postępy – bez zgadywania, bezpiecznie dla całego ciała.",
+    "product": {
+      "title": "Produkt",
+      "features": "Funkcje",
+      "pricing": "Cennik",
+      "integrations": "Integracje",
+      "updates": "Aktualizacje"
+    },
+    "company": {
+      "title": "Firma",
+      "about": "O nas",
+      "careers": "Kariera",
+      "contact": "Kontakt",
+      "privacy": "Prywatność",
+      "terms": "Regulamin"
+    },
+    "resources": {
+      "title": "Zasoby",
+      "documentation": "Dokumentacja",
+      "tutorials": "Samouczki",
+      "apiReference": "Dokumentacja API",
+    "blog": "Blog"
+    },
+    "copyright": "© 2025 Rehand AI. Wszystkie prawa zastrzeżone."
+  },
+  "validation": {
+    "emailInvalid": "Proszę wprowadzić prawidłowy adres email",
+    "passwordMinLength": "Hasło musi mieć co najmniej 6 znaków",
+    "passwordsDontMatch": "Hasła nie pasują do siebie",
+    "fullNameRequired": "Pełne imię i nazwisko jest wymagane",
+    "businessIdRequired": "ID firmy jest wymagane przy dołączaniu do istniejącej firmy",
+    "businessNameRequired": "Nazwa firmy jest wymagana",
+    "fieldRequired": "To pole jest wymagane"
+  },
+  "errors": {
+    "signInFailed": "Logowanie nie powiodło się",
+    "signUpFailed": "Rejestracja nie powiodła się",
+    "createBusinessFailed": "Tworzenie firmy nie powiodło się",
+    "joinBusinessFailed": "Dołączanie do firmy nie powiodło się",
+    "updatePasswordFailed": "Aktualizacja hasła nie powiodła się",
+    "resetPasswordFailed": "Resetowanie hasła nie powiodło się",
+    "noActiveSession": "Nie znaleziono aktywnej sesji. Spróbuj ponownie użyć linku do resetowania hasła.",
+    "userNotAuthenticated": "Użytkownik nie jest uwierzytelniony",
+    "invalidBusinessId": "Nieprawidłowe ID firmy",
+    "noActiveSubscription": "Ta firma nie ma aktywnej subskrypcji",
+    "noPermissionBilling": "Nie masz uprawnień do zarządzania rozliczeniami dla żadnej firmy.",
+    "noBusinessFound": "Nie znaleziono firmy do reaktywacji",
+    "checkoutFailed": "Tworzenie sesji płatności nie powiodło się"
+  },
+  "modals": {
+    "schedule": {
+      "title": "Planowanie zespołu",
+      "description": "Ta funkcja będzie wkrótce dostępna! Efektywnie zarządzaj godzinami pracy zespołu i optymalizuj alokację zasobów.",
+      "close": "Zamknij",
+      "features": {
+        "visualPlanning": "Wizualne planowanie zmian",
+        "teamAvailability": "Dostępność zespołu",
+        "automatedSuggestions": "Automatyczne sugestie",
+        "conflictDetection": "Wykrywanie konfliktów",
+        "timeOffRequests": "Prośby o urlop"
+      }
+    },
+    "newDocument": {
+      "title": "Nowy dokument",
+      "documentTitle": "Tytuł dokumentu",
+      "documentTitlePlaceholder": "Wprowadź tytuł dokumentu",
+      "client": "Klient",
+      "clientPlaceholder": "Wprowadź nazwę klienta",
+      "documentType": "Typ dokumentu",
+      "selectType": "Wybierz typ",
+      "status": "Status",
+      "selectStatus": "Wybierz status",
+      "documentFile": "Plik dokumentu (PDF lub Word)",
+      "clickOrDrag": "Kliknij lub przeciągnij plik do przesłania",
+      "fileRequirements": "Dokumenty PDF lub Word (maks. 10MB)",
+      "remove": "Usuń",
+      "cancel": "Anuluj",
+      "addDocument": "Dodaj dokument",
+      "uploading": "Przesyłanie...",
+      "adding": "Dodawanie...",
+      "required": "*",
+      "errors": {
+        "titleRequired": "Tytuł jest wymagany",
+        "clientRequired": "Klient jest wymagany",
+        "typeRequired": "Typ dokumentu jest wymagany",
+        "statusRequired": "Status jest wymagany",
+        "fileTypeError": "Dozwolone są tylko dokumenty PDF i Word",
+        "fileSizeError": "Rozmiar pliku powinien być mniejszy niż 10MB"
+      },
+      "types": {
+        "invoice": "Faktura",
+        "contract": "Umowa",
+        "tax": "Podatek",
+        "proposal": "Propozycja",
+        "manual": "Podręcznik",
+        "onboarding": "Wdrożenie",
+        "policy": "Zasady"
+      },
+      "statuses": {
+        "draft": "Szkic",
+        "sent": "Wysłane",
+        "completed": "Ukończone"
+      }
+    },
+    "inviteTeamMember": {
+      "title": "Zaproś członka zespołu",
+      "description": "Udostępnij to ID firmy osobie, którą chcesz zaprosić do zespołu. Będzie potrzebne podczas rejestracji.",
+      "businessId": "ID Twojej firmy",
+      "loading": "Ładowanie...",
+      "copied": "Skopiowane!",
+      "copiedDescription": "ID firmy skopiowane do schowka",
+      "instructions": "Instrukcje rejestracji:",
+      "steps": {
+        "shareId": "Udostępnij to ID firmy członkowi zespołu",
+        "goToRegistration": "Poproś go o przejście na stronę rejestracji",
+        "enterId": "Powinien wprowadzić to ID firmy podczas rejestracji",
+        "appearInList": "Po rejestracji pojawi się na liście zespołu"
+      },
+      "close": "Zamknij",
+      "copy": "Kopiuj"
+    },
+    "newTask": {
+      "title": "Nowe zadanie",
+      "steps": {
+        "basicInfo": "Podstawowe",
+        "details": "Szczegóły",
+        "recurring": "Powtarzające się",
+        "checklist": "Lista kontrolna",
+        "assignment": "Przypisanie",
+        "template": "Szablon"
+      },
+      "stepLabel": "Krok {{current}}/{{total}}",
+      "previous": "Poprzedni",
+      "next": "Następny",
+      "cancel": "Anuluj",
+      "createTask": "Utwórz zadanie",
+      "creating": "Tworzenie...",
+      "errorPrefix": "Błąd:",
+      "form": {
+        "basicInfo": {
+          "taskTitle": "Tytuł zadania",
+          "titlePlaceholder": "Wprowadź opisowy tytuł",
+          "titleRequired": "Tytuł zadania jest wymagany",
+          "description": "Opis",
+          "descriptionPlaceholder": "Opisz, co należy zrobić",
+          "descriptionRequired": "Opis zadania jest wymagany",
+          "dueDate": "Termin wykonania",
+          "selectDate": "Wybierz datę",
+          "dueDateRequired": "Termin wykonania jest wymagany"
+        },
+        "details": {
+          "priority": "Priorytet",
+          "high": "Wysoki",
+          "medium": "Średni",
+          "low": "Niski",
+          "photoVerification": "Wymagaj weryfikacji zdjęciem",
+          "photoVerificationDesc": "Po włączeniu, użytkownicy będą musieli przesłać zdjęcie, aby zweryfikować wykonanie zadania",
+          "tags": "Tagi",
+          "loadingTags": "Ładowanie tagów...",
+          "failedToLoadTags": "Nie udało się załadować tagów",
+          "noTagsAvailable": "Brak dostępnych tagów. Tagi można utworzyć w ustawieniach."
+        },
+        "checklist": {
+          "items": "Lista kontrolna",
+          "itemsCount": "{{count}} elementów",
+          "description": "Podziel to zadanie na mniejsze kroki, które należy wykonać",
+          "addPlaceholder": "Dodaj element listy kontrolnej...",
+          "addButton": "Dodaj",
+          "noItems": "Nie dodano jeszcze elementów listy kontrolnej",
+          "noItemsDesc": "Dodaj elementy, aby podzielić to zadanie"
+        },
+        "recurring": {
+          "makeRecurring": "Ustaw jako zadanie cykliczne",
+          "mobileOnly": "Zadania cykliczne są obecnie dostępne tylko w aplikacji mobilnej",
+          "pattern": "Wzorzec powtarzania",
+          "daily": "Codziennie",
+          "weekly": "Co tydzień",
+          "monthly": "Co miesiąc",
+          "repeatEvery": "Powtarzaj co",
+          "days": "dni",
+          "weeks": "tygodnie",
+          "months": "miesiące",
+          "onTheseDays": "W te dni",
+          "recurrenceType": "Typ powtarzania",
+          "onSpecificDate": "W określonym dniu",
+          "onSpecificDay": "W określonym dniu tygodnia",
+          "dayOfMonth": "Dzień miesiąca",
+          "weekOfMonth": "Tydzień miesiąca",
+          "dayOfWeek": "Dzień tygodnia",
+          "endDate": "Data zakończenia (Opcjonalna)",
+          "selectEndDate": "Wybierz datę zakończenia (opcjonalna)",
+          "weeks": {
+            "first": "Pierwszy",
+            "second": "Drugi",
+            "third": "Trzeci",
+            "fourth": "Czwarty",
+            "last": "Ostatni"
+          },
+          "daysOfWeek": {
+            "sunday": "Niedziela",
+            "monday": "Poniedziałek",
+            "tuesday": "Wtorek",
+            "wednesday": "Środa",
+            "thursday": "Czwartek",
+            "friday": "Piątek",
+            "saturday": "Sobota"
+          }
+        },
+        "assignment": {
+          "assignTo": "Przypisz do członków zespołu",
+          "selected": "{{count}} wybranych",
+          "description": "Wybierz jednego lub więcej członków zespołu, aby przypisać im to zadanie",
+          "searchPlaceholder": "Szukaj członków zespołu...",
+          "loading": "Ładowanie członków zespołu...",
+          "failedToLoad": "Nie udało się załadować członków zespołu: {{error}}",
+          "noMembers": "Nie znaleziono członków zespołu",
+          "noMembersDesc": "Dodaj członków zespołu w sekcji Zespół",
+          "noMatching": "Nie znaleziono pasujących członków zespołu",
+          "noMatchingDesc": "Spróbuj innego terminu wyszukiwania",
+          "selectedMembers": "Wybrani członkowie zespołu"
+        },
+        "template": {
+          "saveAsTemplate": "Zapisz jako szablon",
+          "templateTooltip": "Szablony pozwalają na szybkie tworzenie podobnych zadań w przyszłości z wstępnie wypełnionymi informacjami",
+          "description": "Zapisz tę konfigurację zadania jako szablon do przyszłego użytku",
+          "permissionRequired": "Wymagane uprawnienia",
+          "permissionDesc": "Tylko administratorzy i menedżerowie mogą tworzyć szablony zadań",
+          "templateDetails": "Szczegóły szablonu",
+          "templateName": "Nazwa szablonu",
+          "templateNamePlaceholder": "Wprowadź nazwę dla tego szablonu",
+          "templateNameRequired": "Nazwa szablonu jest wymagana",
+          "createdFrom": "Utworzono z",
+          "untitledTask": "Zadanie bez tytułu",
+          "templateIncludes": "Szablon będzie zawierał",
+          "includes": {
+            "taskDetails": "✓ Szczegóły zadania",
+            "selectedTags": "✓ Wybrane tagi",
+            "checklistItems": "✓ Elementy listy kontrolnej",
+            "recurringPattern": "✓ Wzorzec powtarzania"
+          },
+          "accessNote": "Możesz uzyskać dostęp do swoich szablonów podczas tworzenia nowych zadań",
+          "enableTemplate": "Włącz \"Zapisz jako szablon\", aby ponownie wykorzystać tę konfigurację zadania"
+        }
+      }
+    },
+    "taskModal": {
+      "description": "Opis",
+      "dueDate": "Termin wykonania",
+      "priority": "Priorytet",
+      "verificationRequired": "Wymagana weryfikacja",
+      "verificationDescription": "To zadanie wymaga weryfikacji zdjęciem po ukończeniu.",
+      "assignedTeamMembers": "Przypisani członkowie zespołu",
+      "loadingUsers": "Ładowanie użytkowników...",
+      "unknownUser": "Nieznany użytkownik",
+      "markAsComplete": "Oznacz jako ukończone",
+      "completing": "Oznaczanie...",
+      "revertToPending": "Przywróć do oczekujących",
+      "reverting": "Przywracanie...",
+      "completedOn": "Ukończone dnia {{date}}",
+      "verification": "Weryfikacja"
+    },
+    "paywall": {
+      "title": "Wymagana subskrypcja",
+      "description": "Twoja firma \"{{businessName}}\" wymaga aktywnej subskrypcji, aby kontynuować.",
+      "descriptionFallback": "Twoja firma wymaga aktywnej subskrypcji, aby kontynuować.",
+      "signedInAs": "Zalogowany jako: {{email}}",
+      "signOut": "Wyloguj się",
+      "signingOut": "Wylogowywanie...",
+      "errors": {
+        "noPermission": "Nie masz uprawnień do zarządzania rozliczeniami dla żadnej firmy.",
+        "failedToLoad": "Nie udało się załadować szczegółów firmy",
+        "noBusinessFound": "Nie znaleziono firmy do ponownej aktywacji",
+        "failedToCreateCheckout": "Nie udało się utworzyć sesji płatności"
+      },
+      "alerts": {
+        "pastDue": "Twoja ostatnia płatność nie powiodła się. Zaktualizuj metodę płatności.",
+        "canceled": "Twoja subskrypcja została anulowana. Ponownie subskrybuj, aby odzyskać dostęp.",
+        "incomplete": "Konfiguracja Twojej subskrypcji jest niekompletna. Dokończ proces płatności."
+      },
+      "buttons": {
+        "updateSubscription": "Zaktualizuj subskrypcję",
+        "processing": "Przetwarzanie...",
+        "returnToLogin": "Powróć do logowania"
+      },
+      "loading": "Ładowanie..."
+    },
+    "onboarding": {
+      "create": {
+        "title": "Utwórz swoją firmę",
+        "description": "Skonfiguruj nową firmę i przejdź do płatności",
+        "businessName": "Nazwa firmy",
+        "businessNamePlaceholder": "Wprowadź nazwę firmy",
+        "continueToPayment": "Przejdź do płatności",
+        "businessNameRequired": "Nazwa firmy jest wymagana",
+        "creatingBusiness": "Tworzenie firmy, proszę czekać...",
+        "failedToCreate": "Nie udało się utworzyć firmy"
+      },
+      "join": {
+        "title": "Dołącz do firmy",
+        "description": "Wprowadź ID firmy, aby dołączyć do istniejącego zespołu",
+        "businessId": "ID firmy",
+        "businessIdPlaceholder": "Wprowadź ID firmy",
+        "joinBusiness": "Dołącz do firmy",
+        "businessIdRequired": "ID firmy jest wymagane",
+        "invalidBusinessId": "Nieprawidłowe ID firmy",
+        "noActiveSubscription": "Ta firma nie ma aktywnej subskrypcji",
+        "failedToJoin": "Nie udało się dołączyć do firmy"
+      },
+      "shared": {
+        "signedInAs": "Zalogowany jako: {{email}}",
+        "signOut": "Wyloguj się",
+        "signingOut": "Wylogowywanie...",
+        "processing": "Przetwarzanie...",
+        "loading": "Ładowanie...",
+        "switchToCreate": "Chcę utworzyć nową firmę",
+        "switchToJoin": "Chcę dołączyć do istniejącej firmy",
+        "userNotAuthenticated": "Użytkownik nie jest uwierzytelniony"
+      }
+    }
+  }
+} 

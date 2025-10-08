@@ -1,0 +1,893 @@
+{
+  "nav": {
+    "features": "What you get",
+    "howItWorks": "See it in action",
+    "partners": "Partners",
+    "exercises": "Exercises",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials"
+  },
+  "exercises": {
+    "badge": "Sample exercises",
+    "title": "Explore exercises in the app",
+    "subtitle": "A selection available in Rehand. Scroll horizontally to see more.",
+    "error": "Error",
+    "view": "View",
+    "start": "Start exercise",
+    "minutes": "min",
+    "noImage": "No image",
+    "noInstructions": "No instructions to display",
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Sign In",
+      "description": "Enter your email and password to access your dashboard",
+      "email": "Email",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "signInButton": "Sign In",
+      "signingIn": "Signing in...",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "emailPlaceholder": "name@example.com",
+      "welcomeBack": "Welcome back",
+      "signInToAccount": "Sign in to your account to access your dashboard"
+    },
+    "register": {
+      "title": "Create an Account",
+      "description": "Enter your details to create a new account",
+      "fullName": "Full Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "businessOption": "Business Option",
+      "createNew": "Create New Business",
+      "joinExisting": "Join Existing Business",
+      "businessId": "Business ID",
+      "businessIdPlaceholder": "Enter business ID or invite code",
+      "createButton": "Create Account",
+      "creating": "Creating account...",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "fullNamePlaceholder": "John Doe",
+      "emailPlaceholder": "name@example.com",
+      "createAnAccount": "Create an Account",
+      "signUpToGetStarted": "Sign up to get started with AI-Menago"
+    },
+    "navigation": {
+      "dashboard": "Dashboard",
+      "logIn": "Log In",
+      "signUp": "Sign Up"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcomeBack": "Welcome back, {{name}}",
+    "business": "Business: {{name}}",
+    "navigation": {
+      "dashboard": "Dashboard",
+      "tasks": "Tasks",
+      "team": "Team",
+      "time": "Time",
+      "statistics": "Statistics",
+      "documents": "Documents",
+      "settings": "Settings"
+    },
+    "stats": {
+      "totalTasks": "Total Tasks",
+      "totalTasksDesc": "Active tasks in your business",
+      "completedTasks": "Completed Tasks",
+      "completedTasksDesc": "Tasks marked as completed",
+      "pendingTasks": "Pending Tasks",
+      "pendingTasksDesc": "Tasks waiting to be completed",
+      "overdueTasks": "Overdue Tasks",
+      "overdueTasksDesc": "Tasks past their due date",
+      "teamMembers": "Team Members",
+      "teamMembersDesc": "Total users in your business"
+    },
+    "marketingFeatures": {
+      "title": "Latest Features",
+      "learnMore": "Learn More"
+    },
+    "user": {
+      "signOut": "Sign out",
+      "signingOut": "Signing out..."
+    },
+    "activity": {
+      "title": "Recent Activity",
+      "description": "Latest actions across your business",
+      "refresh": "Refresh",
+      "error": "Error loading activities. Please try refreshing.",
+      "noActivities": "No recent activities found.",
+      "showLess": "Show Less",
+      "showAll": "Show All ({{count}})",
+      "recently": "recently"
+    },
+    "settings": {
+      "title": "Settings",
+      "description": "Manage your account settings and preferences",
+      "tabs": {
+        "profile": "Profile",
+        "password": "Password",
+        "notifications": "Notifications"
+      }
+    },
+    "team": {
+      "title": "Team Members",
+      "description": "Manage your team and permissions",
+      "inviteButton": "Invite Team Member",
+      "listTitle": "Team List",
+      "listDescription": "View and manage your team members",
+      "searchPlaceholder": "Search team members...",
+      "error": "Failed to load team members"
+    },
+    "tasks": {
+      "title": "Task Management",
+      "description": "Create, assign, and track tasks for your team",
+      "newTask": "New Task",
+      "tabs": {
+        "all": "All Tasks ({{count}})",
+        "pending": "Pending ({{count}})",
+        "completed": "Completed ({{count}})",
+        "overdue": "Overdue ({{count}})"
+      },
+      "allTasks": {
+        "title": "All Tasks",
+        "description": "View and manage all tasks across your business",
+        "noTasks": "No tasks found. Create your first task!"
+      },
+      "pendingTasks": {
+        "title": "Pending Tasks",
+        "description": "Tasks that are still in progress",
+        "noPending": "No pending tasks!"
+      },
+      "completedTasks": {
+        "title": "Completed Tasks",
+        "description": "Tasks that have been marked as complete",
+        "noCompleted": "No completed tasks yet!"
+      },
+      "overdueTasks": {
+        "title": "Overdue Tasks",
+        "description": "Tasks that have passed their due date",
+        "noOverdue": "No overdue tasks!"
+      },
+      "status": {
+        "completed": "Completed",
+        "overdue": "Overdue",
+        "pending": "Pending"
+      },
+      "priority": {
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low",
+        "priorityLabel": "Priority"
+      }
+    },
+    "timeManagement": {
+      "title": "Time Management",
+      "description": "Track and analyze time spent by your team on different tasks",
+      "schedule": "Schedule",
+      "scheduleButton": "Schedule",
+      "teamView": "Team View",
+      "individualView": "Individual View",
+      "period": "Period",
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "loading": "Loading...",
+      "loadingTeamMembers": "Loading team members...",
+      "noMembersFound": "No members found",
+      "noTeamMembersFound": "No team members found",
+      "selectTeamMember": "Select team member",
+      "timeTrend": "Time Trend",
+      "timeSpentOverSelectedPeriod": "Time spent over the selected period",
+      "summary": "Summary",
+      "overallTimeStatistics": "Overall time statistics",
+      "totalHours": "Total Hours",
+      "activeMembers": "Active Members",
+      "teamCalculation": "Team Calculation",
+      "individualCalculation": "Individual Calculation",
+      "teamTimeStats": {
+        "noBusiness": {
+          "title": "No Business Selected",
+          "description": "Please select a business to view team time statistics."
+        },
+        "totalWorkTime": {
+          "title": "Total Work Time",
+          "helper": "Across {{count}} team members"
+        },
+        "activeMembers": {
+          "title": "Active Members",
+          "helper": "During selected period"
+        },
+        "avgSessions": {
+          "title": "Avg. Sessions",
+          "helper": "Per team member"
+        },
+        "topPerformer": {
+          "title": "Top Performer",
+          "noData": "No data available"
+        }
+      },
+      "timeLineChart": {
+        "noBusiness": {
+          "title": "No Business Selected",
+          "description": "Please select a business to view time statistics."
+        },
+        "yAxis": {
+          "hours": "Hours"
+        },
+        "tooltip": {
+          "workTime": "Work Time",
+          "hours": "hours",
+          "label": "Time: {{label}}"
+        }
+      },
+      "userTimeStats": {
+        "selectMember": "Select a team member to view their statistics",
+        "totalWorkTime": {
+          "title": "Total Work Time",
+          "helper": "For {{name}}"
+        },
+        "workSessions": {
+          "title": "Work Sessions",
+          "helper": "During selected period"
+        },
+        "avgSessionLength": {
+          "title": "Avg. Session Length",
+          "helper": "Per work session"
+        },
+        "longestSession": {
+          "title": "Longest Session",
+          "helper": "Single session duration"
+        }
+      }
+    },
+    "documents": {
+      "title": "Documents",
+      "description": "Manage and track your onboarding documents",
+      "newDocument": "New Document",
+      "libraryTitle": "Document Library",
+      "libraryDescription": "Access onboarding documents and company policies in one place",
+      "searchPlaceholder": "Search documents...",
+      "document": "Document",
+      "client": "Client",
+      "type": "Type",
+      "status": "Status",
+      "date": "Date",
+      "actions": "Actions",
+      "download": "Download",
+      "delete": "Delete",
+      "loading": "Loading documents...",
+      "noDocuments": "No documents found matching your search.",
+      "errorTitle": "Warning",
+      "noDocumentsForBusiness": "No documents found for your business. Please add your first document."
+    }
+  },
+  "hero": {
+    "titlePrefix": "Full-body physiotherapy with",
+    "brand": "Rehand AI",
+    "subtitle": "Train at home with intelligent camera support. Rehand analyzes your posture live, guides you through exercise steps, and automatically measures progress — no guessing and safe for the entire body.",
+    "getStarted": "Start for free",
+    "bookDemo": "Book a Demo",
+    "noCreditCard": "No credit card required",
+    "freeTrial": "7-day free trial",
+    "loading": "Loading...",
+    "previousImage": "Previous image",
+    "nextImage": "Next image",
+    "goToImage": "Go to image",
+    "taskCompletion": "Task Completion",
+    "percentCompleted": "75% Completed",
+    "newTasks": "New Tasks",
+    "today": "Today",
+    "downloadOn": "Download on the",
+    "appStore": "App Store",
+    "getItOn": "Get it on",
+    "googlePlay": "Google Play",
+    "downloadAppStore": "Download on App Store",
+    "downloadGooglePlay": "Get it on Google Play"
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Advanced features for modern physiotherapy",
+    "subtitle": "Camera + AI guide you step by step, and results save automatically.",
+    "taskManagement": {
+      "title": "AI-guided sessions",
+      "description": "Rehand gives live guidance and smoothly leads you through each exercise step."
+    },
+    "roleBasedAccess": {
+      "title": "Position calibration",
+      "description": "Quickly set distance and framing for precise and safe correction."
+    },
+    "photoVerification": {
+      "title": "Full-body exercise library",
+      "description": "From spine mobility to shoulder and hip stability — with clear pass thresholds."
+    },
+    "analytics": {
+      "title": "Weekly goals",
+      "description": "Set your weekly minutes target and track progress in real time."
+    },
+    "administration": {
+      "title": "Achievements and streak",
+      "description": "Badges for first workouts, day streaks and milestones."
+    },
+    "timeTracking": {
+      "title": "Stats and reports",
+      "description": "Completed exercises, total time, rounds and progress — all in your profile."
+    }
+  },
+  "features8": {
+    "badge": "Benefits",
+    "title": "Immediate effects thanks to personalization",
+    "subtitle": "Everything you need to exercise correctly and consistently.",
+    "customizable": {
+      "title": "personalization",
+      "percentage": "100%"
+    },
+    "secure": {
+      "title": "Technique control = fewer errors",
+      "description": "Live feedback corrects limb positioning and pace — accuracy over guessing."
+    },
+    "fast": {
+      "title": "Results in minutes",
+      "description": "After a session, see a summary of steps and time — real progress at a glance."
+    },
+    "analytics": {
+      "title": "Reports at a click",
+      "description": "Clear charts and summaries without manual logging."
+    },
+    "safety": {
+      "title": "Constant motivation",
+      "description": "Weekly goals and badges keep your training consistent."
+    },
+    "employees": {
+      "adam": "Keeping the rhythm",
+      "monika": "Progress daily",
+      "kasia": "Step by step",
+      "krzys": "Goal achieved"
+    }
+  },
+  "howItWorks": {
+    "badge": "See it in action",
+    "title": "See Rehand AI in action",
+    "subtitle": "A short video showing live camera guidance and how sessions look in practice.",
+    "roles": {
+      "admin": {
+        "label": "Admin",
+        "description": "Full business management and reporting capabilities",
+        "steps": {
+          "profile": {
+            "title": "Manage Business Profile",
+            "description": "Create and update your business details, branding, and settings"
+          },
+          "team": {
+            "title": "Team Administration",
+            "description": "Add team members, assign roles, and manage permissions"
+          },
+          "insights": {
+            "title": "Performance Insights",
+            "description": "Access detailed analytics and reports on team productivity"
+          }
+        }
+      },
+      "manager": {
+        "label": "Manager",
+        "description": "Task creation and worker assignment",
+        "steps": {
+          "create": {
+            "title": "Create Tasks",
+            "description": "Define new tasks with detailed descriptions, deadlines, and requirements"
+          },
+          "assign": {
+            "title": "Assign Workers",
+            "description": "Assign tasks to specific team members with clear instructions"
+          },
+          "review": {
+            "title": "Review & Approve",
+            "description": "Verify completed tasks and provide feedback to team members"
+          }
+        }
+      },
+      "worker": {
+        "label": "Worker",
+        "description": "Task viewing and completion",
+        "steps": {
+          "view": {
+            "title": "View Assignments",
+            "description": "See all assigned tasks with details and deadlines"
+          },
+          "track": {
+            "title": "Track Work Hours",
+            "description": "Clock in and out for accurate work hour tracking"
+          },
+          "submit": {
+            "title": "Submit Completion",
+            "description": "Mark tasks as complete with photo evidence and comments"
+          }
+        }
+      }
+    }
+  },
+  "partners": {
+    "title": "Rehand AI is trusted by users who care about a healthy spine, shoulders, knees and hips."
+  },
+  "pricing": {
+    "badge": "Pricing",
+    "title": "Choose the ideal plan for you",
+    "subtitle": "All plans include a 14‑day free trial. No credit card required.",
+    "monthly": "Monthly",
+    "annually": "Annually",
+    "saveText": "(Save 20%)",
+    "comingSoon": "Coming Soon",
+    "billing": {
+      "monthly": "Monthly",
+      "annually": "Annually",
+      "save20": "Save 20%"
+    },
+    "plans": {
+      "core": {
+        "name": "Weekly Plan",
+        "description": "Quick start and test full AI sessions",
+        "cta": "Start trial",
+        "priceMonthly": 21,
+        "priceAnnually": 202,
+        "features": {
+          "teamMembers": "Unlimited AI sessions during trial",
+          "taskManagement": "2 trial exercises with full feedback",
+          "timeTracking": "Basic stats and weekly goals",
+          "photoVerification": "",
+          "roleAccess": "",
+          "basicAnalytics": "",
+          "aiMonthlyReports": "",
+          "support": "Email and chat support"
+        }
+      },
+      "growthAI": {
+        "name": "Monthly Plan",
+        "description": "Full library and unlimited AI sessions",
+        "cta": "Choose plan",
+        "priceMonthly": 52,
+        "priceAnnually": 496,
+        "popular": true,
+        "features": {
+          "teamMembers": "Full-body exercise library",
+          "taskManagement": "Unlimited AI sessions and rounds",
+          "photoVerification": "Achievements, streak, advanced stats",
+          "roleAccess": "",
+          "basicAnalytics": "",
+          "aiReports": "",
+          "payroll": "",
+          "scheduling": "",
+          "onboardingBot": "",
+          "internalChat": "",
+          "prioritySupport": "Updates and priority fixes"
+        }
+      },
+      "enterprise": {
+        "name": "Annual Plan",
+        "badge": "Save more",
+        "description": "Best price and premium support",
+        "cta": "Choose plan",
+        "contactOnly": true,
+        "features": {
+          "unlimitedMembers": "Everything from Monthly plan",
+          "completeSuite": "Lowest price per month",
+          "advancedRoleAccess": "Priority support",
+          "advancedAnalytics": "Bonus materials and training plans",
+          "customIntegrations": "",
+          "internalChatPro": "",
+          "dedicatedCSM": "",
+          "sla": ""
+        }
+      }
+    },
+    "week": "week",
+    "month": "month",
+    "year": "year",
+    "popular": "Popular",
+    "customPlan": "Need a custom plan?",
+    "contactSales": "Contact our sales team"
+  },
+  "testimonials": {
+    "badge": "Beta & Experts",
+    "title": "What our users say",
+    "subtitle": "Voices from physiotherapists and beta participants.",
+    "testimonial1": {
+      "quote": "Rehand helps my patients keep correct technique between visits. With position calibration and live cues, patients get correction exactly when they move, which noticeably accelerates therapeutic effects.",
+      "name": "Dr. Martha Kowalczyk",
+      "role": "Physiotherapist, orthopedics"
+    },
+    "testimonial2": {
+      "quote": "Camera calibration and live guidance shorten the learning curve. I see fewer compensations and patients achieve correct patterns faster, making it easier to progress to more advanced exercises.",
+      "name": "MSc Peter King",
+      "role": "Sports physiotherapist"
+    },
+    "testimonial3": {
+      "quote": "After a week I feel less lower back pain and better mobility. I like that the app shows progress after every session and reminds me of weekly goals — it really keeps me consistent.",
+      "name": "Anna, 29",
+      "role": "Beta participant"
+    },
+    "testimonial4": {
+      "quote": "Post-session reports make my therapy planning easier. I get a quick summary of completed movements, duration and challenging elements, so I can precisely tailor the next home exercises.",
+      "name": "Dr. Paul Lee",
+      "role": "Manual therapy physiotherapist"
+    },
+    "testimonial5": {
+      "quote": "Weekly goals keep me consistent. Even on busy days, short rounds and clear pass thresholds help me stay on track and see real progress.",
+      "name": "Michael, 35",
+      "role": "Beta participant"
+    },
+    "testimonial6": {
+      "quote": "The full-body exercise library is clear and well guided.",
+      "name": "Alex Nowak",
+      "role": "Physiotherapist"
+    },
+    "testimonial7": {
+      "quote": "I train at home in the evening and finally see progress.",
+      "name": "Kate, 42",
+      "role": "Beta participant"
+    },
+    "testimonial8": {
+      "quote": "Real-time feedback reduces technical errors.",
+      "name": "MSc Eve Bielecka",
+      "role": "Neurological physiotherapist"
+    },
+    "testimonial9": {
+      "quote": "After 2 weeks my knee hurts less and range of motion is better.",
+      "name": "Bart, 31",
+      "role": "Beta participant"
+    },
+    "testimonial10": {
+      "quote": "The app clearly shows range of motion and pace. It helps me educate patients, and helps them self-correct patterns at home.",
+      "name": "Dr. Joanna Szymanska",
+      "role": "Physiotherapist, musculoskeletal rehabilitation"
+    },
+    "testimonial11": {
+      "quote": "After a shoulder injury I recovered faster than expected. Short sessions every other day and clear feedback made the difference.",
+      "name": "Lucas, 38",
+      "role": "Beta participant"
+    },
+    "testimonial12": {
+      "quote": "With neuro patients, repeatability and safety are crucial. Rehand enables both at home without compromise.",
+      "name": "MSc Natalie Kurek",
+      "role": "Neurological physiotherapist"
+    }
+  },
+  "cta": {
+    "badge": "Results in practice",
+    "title": "Ready for a smarter AI-powered workout?",
+    "subtitle": "Start your 14‑day free trial today. No credit card required.",
+    "getStarted": "Start for free",
+    "bookDemo": "Book a Demo",
+    "benefits": {
+      "noCreditCard": "No credit card required",
+      "easySetup": "Easy setup",
+      "cancelAnytime": "Cancel anytime"
+    }
+  },
+  "footer": {
+    "description": "Rehand AI is an intelligent home physiotherapy assistant. It analyzes your posture live, guides you through exercise steps, and automatically tracks progress — no guessing, safe for your whole body.",
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "pricing": "Pricing",
+      "integrations": "Integrations",
+      "updates": "Updates"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "careers": "Careers",
+      "contact": "Contact",
+      "privacy": "Privacy",
+      "terms": "Terms of Use"
+    },
+    "resources": {
+      "title": "Resources",
+      "documentation": "Documentation",
+      "tutorials": "Tutorials",
+      "apiReference": "API Reference",
+    "blog": "Blog"
+    },
+    "copyright": "© 2025 Rehand AI. All rights reserved."
+  },
+  "validation": {
+    "emailInvalid": "Please enter a valid email address",
+    "passwordMinLength": "Password must be at least 6 characters",
+    "passwordsDontMatch": "Passwords don't match",
+    "fullNameRequired": "Full name is required",
+    "businessIdRequired": "Business ID is required when joining an existing business",
+    "businessNameRequired": "Business name is required",
+    "fieldRequired": "This field is required"
+  },
+  "errors": {
+    "signInFailed": "Failed to sign in",
+    "signUpFailed": "Failed to sign up",
+    "createBusinessFailed": "Failed to create business",
+    "joinBusinessFailed": "Failed to join business",
+    "updatePasswordFailed": "Failed to update password",
+    "resetPasswordFailed": "Failed to reset password",
+    "noActiveSession": "No active session found. Please try the reset password link again.",
+    "userNotAuthenticated": "User not authenticated",
+    "invalidBusinessId": "Invalid business ID",
+    "noActiveSubscription": "This business does not have an active subscription",
+    "noPermissionBilling": "You do not have permission to manage billing for any business.",
+    "noBusinessFound": "No business found to reactivate",
+    "checkoutFailed": "Failed to create checkout session"
+  },
+  "modals": {
+    "schedule": {
+      "title": "Team Scheduling",
+      "description": "This feature is coming soon! Efficiently manage your team's work hours and optimize resource allocation.",
+      "close": "Close",
+      "features": {
+        "visualPlanning": "Visual shift planning",
+        "teamAvailability": "Team availability",
+        "automatedSuggestions": "Automated suggestions",
+        "conflictDetection": "Conflict detection",
+        "timeOffRequests": "Time-off requests"
+      }
+    },
+    "newDocument": {
+      "title": "New Document",
+      "documentTitle": "Document Title",
+      "documentTitlePlaceholder": "Enter document title",
+      "client": "Client",
+      "clientPlaceholder": "Enter client name",
+      "documentType": "Document Type",
+      "selectType": "Select type",
+      "status": "Status",
+      "selectStatus": "Select status",
+      "documentFile": "Document File (PDF or Word)",
+      "clickOrDrag": "Click or drag a file to upload",
+      "fileRequirements": "PDF or Word documents (max 10MB)",
+      "remove": "Remove",
+      "cancel": "Cancel",
+      "addDocument": "Add Document",
+      "uploading": "Uploading...",
+      "adding": "Adding...",
+      "required": "*",
+      "errors": {
+        "titleRequired": "Title is required",
+        "clientRequired": "Client is required",
+        "typeRequired": "Document type is required",
+        "statusRequired": "Status is required",
+        "fileTypeError": "Only PDF and Word documents are allowed",
+        "fileSizeError": "File size should be less than 10MB"
+      },
+      "types": {
+        "invoice": "Invoice",
+        "contract": "Contract",
+        "tax": "Tax",
+        "proposal": "Proposal",
+        "manual": "Manual",
+        "onboarding": "Onboarding",
+        "policy": "Policy"
+      },
+      "statuses": {
+        "draft": "Draft",
+        "sent": "Sent",
+        "completed": "Completed"
+      }
+    },
+    "inviteTeamMember": {
+      "title": "Invite Team Member",
+      "description": "Share this business ID with the person you want to invite to your team. They will need it during registration.",
+      "businessId": "Your Business ID",
+      "loading": "Loading...",
+      "copied": "Copied!",
+      "copiedDescription": "Business ID copied to clipboard",
+      "instructions": "Registration instructions:",
+      "steps": {
+        "shareId": "Share this business ID with your team member",
+        "goToRegistration": "Ask them to go to the registration page",
+        "enterId": "They should enter this business ID during registration",
+        "appearInList": "Once registered, they'll appear in your team list"
+      },
+      "close": "Close"
+    },
+    "newTask": {
+      "title": "New Task",
+      "steps": {
+        "basicInfo": "Basic Info",
+        "details": "Details",
+        "recurring": "Recurring",
+        "checklist": "Checklist",
+        "assignment": "Assignment",
+        "template": "Template"
+      },
+      "stepLabel": "Step {{current}}/{{total}}",
+      "previous": "Previous",
+      "next": "Next",
+      "cancel": "Cancel",
+      "createTask": "Create Task",
+      "creating": "Creating...",
+      "errorPrefix": "Error:",
+      "form": {
+        "basicInfo": {
+          "taskTitle": "Task Title",
+          "titlePlaceholder": "Enter a descriptive title",
+          "titleRequired": "Task title is required",
+          "description": "Description",
+          "descriptionPlaceholder": "Describe what needs to be done",
+          "descriptionRequired": "Task description is required",
+          "dueDate": "Due Date",
+          "selectDate": "Select a date",
+          "dueDateRequired": "Due date is required"
+        },
+        "details": {
+          "priority": "Priority",
+          "high": "High",
+          "medium": "Medium",
+          "low": "Low",
+          "photoVerification": "Require Photo Verification",
+          "photoVerificationDesc": "When enabled, users will need to submit a photo to verify task completion",
+          "tags": "Tags",
+          "loadingTags": "Loading tags...",
+          "failedToLoadTags": "Failed to load tags",
+          "noTagsAvailable": "No tags available. Tags can be created in the settings."
+        },
+        "checklist": {
+          "items": "Checklist Items",
+          "itemsCount": "{{count}} Items",
+          "description": "Break down this task into smaller steps that need to be completed",
+          "addPlaceholder": "Add a checklist item...",
+          "addButton": "Add",
+          "noItems": "No checklist items added yet",
+          "noItemsDesc": "Add items to break down this task"
+        },
+        "recurring": {
+          "makeRecurring": "Make this a recurring task",
+          "mobileOnly": "Recurring tasks are currently only available in the mobile app",
+          "pattern": "Recurrence Pattern",
+          "daily": "Daily",
+          "weekly": "Weekly",
+          "monthly": "Monthly",
+          "repeatEvery": "Repeat every",
+          "days": "day(s)",
+          "weeks": "week(s)",
+          "months": "month(s)",
+          "onTheseDays": "On these days",
+          "recurrenceType": "Recurrence type",
+          "onSpecificDate": "On a specific date",
+          "onSpecificDay": "On a specific day of the week",
+          "dayOfMonth": "Day of the month",
+          "weekOfMonth": "Week of the month",
+          "dayOfWeek": "Day of the week",
+          "endDate": "End Date (Optional)",
+          "selectEndDate": "Select an end date (optional)",
+          "weeks": {
+            "first": "First",
+            "second": "Second",
+            "third": "Third",
+            "fourth": "Fourth",
+            "last": "Last"
+          },
+          "daysOfWeek": {
+            "sunday": "Sunday",
+            "monday": "Monday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday",
+            "thursday": "Thursday",
+            "friday": "Friday",
+            "saturday": "Saturday"
+          }
+        },
+        "assignment": {
+          "assignTo": "Assign to Team Members",
+          "selected": "{{count}} Selected",
+          "description": "Select one or more team members to assign this task to",
+          "searchPlaceholder": "Search for team members...",
+          "loading": "Loading team members...",
+          "failedToLoad": "Failed to load team members: {{error}}",
+          "noMembers": "No team members found",
+          "noMembersDesc": "Add team members in the Team section",
+          "noMatching": "No matching team members",
+          "noMatchingDesc": "Try a different search term",
+          "selectedMembers": "Selected Team Members"
+        },
+        "template": {
+          "saveAsTemplate": "Save as Template",
+          "templateTooltip": "Templates allow you to quickly create similar tasks in the future with pre-filled information",
+          "description": "Save this task configuration as a template for future use",
+          "permissionRequired": "Permission Required",
+          "permissionDesc": "Only admins and managers can create task templates",
+          "templateDetails": "Template Details",
+          "templateName": "Template Name",
+          "templateNamePlaceholder": "Enter a name for this template",
+          "templateNameRequired": "Template name is required",
+          "createdFrom": "Created From",
+          "untitledTask": "Untitled Task",
+          "templateIncludes": "Template Will Include",
+          "includes": {
+            "taskDetails": "✓ Task details",
+            "selectedTags": "✓ Selected tags",
+            "checklistItems": "✓ Checklist items",
+            "recurringPattern": "✓ Recurring pattern"
+          },
+          "accessNote": "You can access your templates when creating new tasks",
+          "enableTemplate": "Enable \"Save as Template\" to reuse this task configuration"
+        }
+      }
+    },
+    "taskModal": {
+      "description": "Description",
+      "dueDate": "Due Date",
+      "priority": "Priority",
+      "verificationRequired": "Verification Required",
+      "verificationDescription": "This task requires photo verification upon completion.",
+      "assignedTeamMembers": "Assigned Team Members",
+      "loadingUsers": "Loading users...",
+      "unknownUser": "Unknown User",
+      "markAsComplete": "Mark as Complete",
+      "completing": "Completing...",
+      "revertToPending": "Revert to Pending",
+      "reverting": "Reverting...",
+      "completedOn": "Completed on {{date}}",
+      "verification": "Verification"
+    },
+    "paywall": {
+      "title": "Subscription Required",
+      "description": "Your business \"{{businessName}}\" requires an active subscription to continue.",
+      "descriptionFallback": "Your business requires an active subscription to continue.",
+      "signedInAs": "Signed in as: {{email}}",
+      "signOut": "Sign Out",
+      "signingOut": "Signing out...",
+      "errors": {
+        "noPermission": "You do not have permission to manage billing for any business.",
+        "failedToLoad": "Failed to load business details",
+        "noBusinessFound": "No business found to reactivate",
+        "failedToCreateCheckout": "Failed to create checkout session"
+      },
+      "alerts": {
+        "pastDue": "Your last payment failed. Please update your payment method.",
+        "canceled": "Your subscription has been canceled. Resubscribe to regain access.",
+        "incomplete": "Your subscription setup is incomplete. Please complete the payment process."
+      },
+      "buttons": {
+        "updateSubscription": "Update Subscription",
+        "processing": "Processing...",
+        "returnToLogin": "Return to Login"
+      },
+      "loading": "Loading..."
+    },
+    "onboarding": {
+      "create": {
+        "title": "Create Your Business",
+        "description": "Set up your new business and proceed to payment",
+        "businessName": "Business Name",
+        "businessNamePlaceholder": "Enter your business name",
+        "continueToPayment": "Continue to Payment",
+        "businessNameRequired": "Business name is required",
+        "creatingBusiness": "Creating your business, please wait...",
+        "failedToCreate": "Failed to create business"
+      },
+      "join": {
+        "title": "Join a Business",
+        "description": "Enter the business ID to join an existing team",
+        "businessId": "Business ID",
+        "businessIdPlaceholder": "Enter the business ID",
+        "joinBusiness": "Join Business",
+        "businessIdRequired": "Business ID is required",
+        "invalidBusinessId": "Invalid business ID",
+        "noActiveSubscription": "This business does not have an active subscription",
+        "failedToJoin": "Failed to join business"
+      },
+      "shared": {
+        "signedInAs": "Signed in as: {{email}}",
+        "signOut": "Sign Out",
+        "signingOut": "Signing out...",
+        "processing": "Processing...",
+        "loading": "Loading...",
+        "switchToCreate": "I want to create a new business instead",
+        "switchToJoin": "I want to join an existing business instead",
+        "userNotAuthenticated": "User not authenticated"
+      }
+    }
+  }
+} 

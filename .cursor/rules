@@ -1,0 +1,70 @@
+Got it — here's the updated rule set rewritten specifically for **senior Next.js developers** using TypeScript, with attention to server/client boundaries, API handling, and performance. The core spirit of your original rules is preserved but fully adapted to the Next.js environment:
+
+---
+
+### 🐹 **Cursor Rules for Senior Next.js (TypeScript) Developers**
+
+1. **Maintain Modular Component Architecture**
+
+   * Decompose UI into small, reusable components with a single responsibility.
+   * Keep page files (`/pages` or `/app`) concise — no more than **300 lines**.
+   * Extract shared logic/UI into `/components`, `/hooks`, or `/utils`.
+
+2. **Follow TypeScript Best Practices**
+
+   * Strongly type all props, state, functions, and API inputs/outputs.
+   * Use global types in `/types`, and keep them in sync with Supabase database schemas.
+   * Never use `any` unless absolutely necessary—with justification.
+
+3. **Leverage Next.js Features Properly**
+
+   * Use `getServerSideProps`, `getStaticProps`, or `app router`'s server components when SSR or SSG is needed.
+   * Avoid fetching data client-side unless it’s dynamic or user-specific.
+   * Use `next/image`, `next/link`, and built-in `Head` for optimal performance and SEO.
+
+4. **Extract Business Logic into Custom Hooks**
+
+   * Encapsulate data fetching, mutations, or side effects in custom React hooks (e.g. `useUser`, `useTasks`).
+   * Ensure components remain focused on rendering, not logic.
+   * Place all reusable hooks under `/hooks`.
+
+5. **Optimize Performance**
+
+   * Use `useMemo`, `useCallback`, and `React.memo` wisely to prevent unnecessary re-renders.
+   * Use `next/image` for optimized, responsive image handling.
+   * Avoid heavy client-side libraries and keep bundle size minimal.
+
+6. **Ensure Cross-Browser and Platform Compatibility**
+
+   * Test components across modern browsers and mobile devices.
+   * Avoid assuming availability of `window` or `document` in server-side code.
+   * Use feature detection and polyfills where needed.
+
+7. **Standardized Error Handling**
+
+   * Use try-catch around async functions.
+   * Display user-friendly errors in the UI; log detailed messages to the console or monitoring service (e.g. Sentry).
+   * Structure API error handling consistently in `api/` routes or actions.
+
+8. **Responsive, Accessible UI Design**
+
+   * Design for all screen sizes using CSS Modules, Tailwind, or styled-components.
+   * Follow accessibility standards (e.g., alt text, ARIA roles, keyboard navigation).
+   * Avoid fixed heights/widths unless necessary.
+
+9. **Secure Authentication & Authorization**
+
+   * Use Supabase for auth and session handling.
+   * Secure API routes and server components using session validation.
+   * Implement role-based access control on both client and server sides based on Supabase policies.
+
+10. **Document Complex Logic**
+
+* Comment edge cases, asynchronous logic, and non-obvious behavior.
+* Use JSDoc or TypeScript comments where appropriate for public-facing utilities and hooks.
+
+11. **Use MCP Supabase for Database Operations**
+
+* Use the **MCP** interface to manage CRUD operations and policies in Supabase.
+* Stick to defined tables and RLS (row-level security) in the **“aj-menago4”** project.
+* Avoid direct SQL unless absolutely necessary and ensure policies are respected in all queries.
