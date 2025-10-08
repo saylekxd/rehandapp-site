@@ -97,11 +97,7 @@ export default function PricingSection() {
       contactOnly: false,
     }
   ];
-
-  const toggleBillingPeriod = () => {
-    setBillingPeriod(billingPeriod === 'monthly' ? 'annually' : 'monthly');
-  };
-
+  
   return (
     <section id="pricing" className="py-20 bg-background relative overflow-hidden">
       <div className="absolute top-0 inset-x-0 h-40 bg-gradient-to-b from-primary/5 to-transparent dark:from-primary/10 -z-10" />

@@ -750,7 +750,7 @@
           "monthly": "Monthly",
           "repeatEvery": "Repeat every",
           "days": "day(s)",
-          "weeks": "week(s)",
+        "weeksLabel": "week(s)",
           "months": "month(s)",
           "onTheseDays": "On these days",
           "recurrenceType": "Recurrence type",

@@ -833,7 +833,7 @@
           "monthly": "Co miesiąc",
           "repeatEvery": "Powtarzaj co",
           "days": "dni",
-          "weeks": "tygodnie",
+        "weeksLabel": "tygodnie",
           "months": "miesiące",
           "onTheseDays": "W te dni",
           "recurrenceType": "Typ powtarzania",
